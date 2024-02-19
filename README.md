@@ -20,10 +20,8 @@ https://itunes.apple.com/us/app/ampleharvest/id348829918?mt=8
 1. Funding/Donations- Millions of dollars are donated annually to support such non-profit causes & organizations. Feeding America Organization help in generating revenue for such activities across the state. Donors who provide food in good faith are protected by both State and Federal Good Samaritan laws designed to encourage donation of needed foods and protect donors. We plan to get some external funding for the project once we have a stable prototype version of the application ready.
 2. Advertisements- Advertisements will also be used initially to generate basic revenue for the application maintenance & support.
 
-#Developed by - Pankaj Maheshwari
-
-#Concept By-
-Ozlem Gorkan
-Pankaj Maheshwari
-Rodrigo Moraga
-Soledad Martinez
+### Concept By-
+1. Ozlem Gorkan
+2. Pankaj Maheshwari
+3. Rodrigo Moraga
+4. Soledad Martinez

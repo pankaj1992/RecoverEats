@@ -1,8 +1,12 @@
 # RecoverEats
 ## Summary
+[Intro Video | https://drive.google.com/file/d/14jkOz26QY8bZ7k6Znz7fHGG5qi8sGPwr/view?usp=drive_link]
+
 RecoverEats, a new iOS app revolutionizing how we tackle food waste! This innovative platform harnesses technology to engage individuals in reducing waste at home and in businesses. With two user interfaces, it offers tailored solutions for households and businesses. Household features include food inventory management, expiry notifications, and meal planning, while the business interface focuses on inventory optimization and waste reduction.
 
 RecoverEats uses AI for demand predictions and optimization, RFID technology to scan receipts, and Augmented Reality for product scanning. It links with external apps like UberEats and Grocery Apps to provide recommendations and connects users with food donation organizations for easy excess food management. Say goodbye to waste with RecoverEats!
+
+This codebase provides integration plugins and framework tutorial for business wishing to integrate with RecoverEats.
 
 ## Project Analysis
 ### Target Audience

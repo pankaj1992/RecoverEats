@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405D8478B2922B944646FBC5 /* Pods_DonateNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129FA61BA5E5B209F3D83C0 /* Pods_DonateNow.framework */; };
+		5D092A6F1E5D249400203541 /* RequestorViewReviewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D092A6E1E5D249400203541 /* RequestorViewReviewsController.swift */; };
+		5D092A711E5D24DA00203541 /* RequestorWriteReviewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D092A701E5D24DA00203541 /* RequestorWriteReviewsController.swift */; };
+		5D092A731E5D25DE00203541 /* DonorViewReviewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D092A721E5D25DE00203541 /* DonorViewReviewsController.swift */; };
+		5D227BF11E499C4200E2F5A4 /* SignupDonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D227BF01E499C4200E2F5A4 /* SignupDonorViewController.swift */; };
+		5D227BF31E499C5900E2F5A4 /* SignupRequestorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D227BF21E499C5900E2F5A4 /* SignupRequestorViewController.swift */; };
+		5D4FF9011E5E7F6900754418 /* ReviewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FF9001E5E7F6900754418 /* ReviewDetails.swift */; };
+		AE081FCA1E47A92C000A4F9B /* RequestorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE081FC91E47A92C000A4F9B /* RequestorViewController.swift */; };
+		AE081FCE1E47AB6F000A4F9B /* RequestorAcceptedDonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE081FCD1E47AB6F000A4F9B /* RequestorAcceptedDonationViewController.swift */; };
+		AE081FD01E47AE20000A4F9B /* RequestorAcceptedDonationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE081FCF1E47AE20000A4F9B /* RequestorAcceptedDonationsTableViewCell.swift */; };
+		AE081FD31E47EFFF000A4F9B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE081FD21E47EFFF000A4F9B /* Utility.swift */; };
+		AE081FD61E47F5ED000A4F9B /* ViewDonationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE081FD51E47F5ED000A4F9B /* ViewDonationDetailsViewController.swift */; };
+		AE081FD81E47FC5B000A4F9B /* DonationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE081FD71E47FC5B000A4F9B /* DonationDetails.swift */; };
+		AE1BE30B1E3AF67100F08C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BE30A1E3AF67100F08C31 /* AppDelegate.swift */; };
+		AE1BE30D1E3AF67100F08C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BE30C1E3AF67100F08C31 /* ViewController.swift */; };
+		AE1BE3101E3AF67100F08C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1BE30E1E3AF67100F08C31 /* Main.storyboard */; };
+		AE1BE3121E3AF67100F08C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1BE3111E3AF67100F08C31 /* Assets.xcassets */; };
+		AE1BE3151E3AF67100F08C31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1BE3131E3AF67100F08C31 /* LaunchScreen.storyboard */; };
+		AE5DB73C1E403A5200B62A35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE5DB73B1E403A5200B62A35 /* GoogleService-Info.plist */; };
+		AE799C101E46B01D00F67432 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE799C0F1E46B01D00F67432 /* logo.jpg */; };
+		AEC39C771E6BB13700FB0FEA /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC39C761E6BB13700FB0FEA /* ReviewsTableViewCell.swift */; };
+		AEC8BC241E52226400ADC130 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8BC231E52226400ADC130 /* Webservices.swift */; };
+		AEC8BC261E5587E300ADC130 /* RequestorAvailableDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8BC251E5587E300ADC130 /* RequestorAvailableDonationsViewController.swift */; };
+		AECD22981E46BC0D002FB1E0 /* MyDonationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD22971E46BC0D002FB1E0 /* MyDonationTableViewCell.swift */; };
+		AECD229E1E46CD7D002FB1E0 /* MyDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD229D1E46CD7D002FB1E0 /* MyDonationsViewController.swift */; };
+		AECD22A01E46D2E4002FB1E0 /* NewDonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD229F1E46D2E4002FB1E0 /* NewDonationViewController.swift */; };
+		AED777E71E5CF484002D65B6 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED777E61E5CF484002D65B6 /* UserDetails.swift */; };
+		AEE399661E402899003B7B23 /* DonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE399651E402899003B7B23 /* DonorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D092A6E1E5D249400203541 /* RequestorViewReviewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestorViewReviewsController.swift; sourceTree = "<group>"; };
+		5D092A701E5D24DA00203541 /* RequestorWriteReviewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestorWriteReviewsController.swift; sourceTree = "<group>"; };
+		5D092A721E5D25DE00203541 /* DonorViewReviewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorViewReviewsController.swift; sourceTree = "<group>"; };
+		5D227BF01E499C4200E2F5A4 /* SignupDonorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupDonorViewController.swift; sourceTree = "<group>"; };
+		5D227BF21E499C5900E2F5A4 /* SignupRequestorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupRequestorViewController.swift; sourceTree = "<group>"; };
+		5D4FF9001E5E7F6900754418 /* ReviewDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewDetails.swift; sourceTree = "<group>"; };
+		6129FA61BA5E5B209F3D83C0 /* Pods_DonateNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonateNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934A3AEAB6CBFB2EDC3BD2C2 /* Pods-DonateNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateNow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonateNow/Pods-DonateNow.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF3243E28DB5837788361C5 /* Pods-DonateNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateNow.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonateNow/Pods-DonateNow.release.xcconfig"; sourceTree = "<group>"; };
+		AE081FC91E47A92C000A4F9B /* RequestorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestorViewController.swift; sourceTree = "<group>"; };
+		AE081FCD1E47AB6F000A4F9B /* RequestorAcceptedDonationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestorAcceptedDonationViewController.swift; sourceTree = "<group>"; };
+		AE081FCF1E47AE20000A4F9B /* RequestorAcceptedDonationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestorAcceptedDonationsTableViewCell.swift; sourceTree = "<group>"; };
+		AE081FD21E47EFFF000A4F9B /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AE081FD51E47F5ED000A4F9B /* ViewDonationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDonationDetailsViewController.swift; sourceTree = "<group>"; };
+		AE081FD71E47FC5B000A4F9B /* DonationDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationDetails.swift; sourceTree = "<group>"; };
+		AE1BE3071E3AF67100F08C31 /* DonateNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonateNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1BE30A1E3AF67100F08C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE1BE30C1E3AF67100F08C31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE1BE30F1E3AF67100F08C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1BE3111E3AF67100F08C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1BE3141E3AF67100F08C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE1BE3161E3AF67100F08C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE55DFB01E3AFFBF00231A04 /* DonateNow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DonateNow.entitlements; sourceTree = "<group>"; };
+		AE5DB73B1E403A5200B62A35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE799C0F1E46B01D00F67432 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		AEC39C761E6BB13700FB0FEA /* ReviewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		AEC8BC231E52226400ADC130 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		AEC8BC251E5587E300ADC130 /* RequestorAvailableDonationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestorAvailableDonationsViewController.swift; sourceTree = "<group>"; };
+		AECD22971E46BC0D002FB1E0 /* MyDonationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDonationTableViewCell.swift; sourceTree = "<group>"; };
+		AECD229D1E46CD7D002FB1E0 /* MyDonationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDonationsViewController.swift; sourceTree = "<group>"; };
+		AECD229F1E46D2E4002FB1E0 /* NewDonationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDonationViewController.swift; sourceTree = "<group>"; };
+		AED777E61E5CF484002D65B6 /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		AEE399651E402899003B7B23 /* DonorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1BE3041E3AF67100F08C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D8478B2922B944646FBC5 /* Pods_DonateNow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D092A6D1E5D22FC00203541 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				5D4FF8FF1E5E7F5500754418 /* Model */,
+				5D092A6E1E5D249400203541 /* RequestorViewReviewsController.swift */,
+				5D092A701E5D24DA00203541 /* RequestorWriteReviewsController.swift */,
+				5D092A721E5D25DE00203541 /* DonorViewReviewsController.swift */,
+				AEC39C761E6BB13700FB0FEA /* ReviewsTableViewCell.swift */,
+			);
+			name = Reviews;
+			sourceTree = "<group>";
+		};
+		5D227BEF1E499C2300E2F5A4 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5D26570B1E4AA48900F30996 /* Model */,
+				5D227BF01E499C4200E2F5A4 /* SignupDonorViewController.swift */,
+				5D227BF21E499C5900E2F5A4 /* SignupRequestorViewController.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		5D26570B1E4AA48900F30996 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AED777E61E5CF484002D65B6 /* UserDetails.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5D4FF8FF1E5E7F5500754418 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D4FF9001E5E7F6900754418 /* ReviewDetails.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9830CF284C4C3B4D55AE683A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				934A3AEAB6CBFB2EDC3BD2C2 /* Pods-DonateNow.debug.xcconfig */,
+				ADF3243E28DB5837788361C5 /* Pods-DonateNow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7DF5AEB7A7E830EB0585116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6129FA61BA5E5B209F3D83C0 /* Pods_DonateNow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE081FC11E47A62D000A4F9B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BE30C1E3AF67100F08C31 /* ViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		AE081FC21E47A63A000A4F9B /* DonorViewDonations */ = {
+			isa = PBXGroup;
+			children = (
+				AECD22971E46BC0D002FB1E0 /* MyDonationTableViewCell.swift */,
+				AECD229D1E46CD7D002FB1E0 /* MyDonationsViewController.swift */,
+			);
+			name = DonorViewDonations;
+			sourceTree = "<group>";
+		};
+		AE081FC31E47A659000A4F9B /* DonorNewDonation */ = {
+			isa = PBXGroup;
+			children = (
+				AECD229F1E46D2E4002FB1E0 /* NewDonationViewController.swift */,
+			);
+			name = DonorNewDonation;
+			sourceTree = "<group>";
+		};
+		AE081FC41E47A66D000A4F9B /* DonorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE081FD91E494F31000A4F9B /* Model */,
+				AEE399651E402899003B7B23 /* DonorViewController.swift */,
+			);
+			name = DonorViewController;
+			sourceTree = "<group>";
+		};
+		AE081FC51E47A680000A4F9B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BE30A1E3AF67100F08C31 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AE081FC61E47A68B000A4F9B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BE3131E3AF67100F08C31 /* LaunchScreen.storyboard */,
+				AE1BE30E1E3AF67100F08C31 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		AE081FC71E47A6A4000A4F9B /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BE3161E3AF67100F08C31 /* Info.plist */,
+				AE5DB73B1E403A5200B62A35 /* GoogleService-Info.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		AE081FC81E47A90A000A4F9B /* RequestorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE081FC91E47A92C000A4F9B /* RequestorViewController.swift */,
+			);
+			name = RequestorViewController;
+			sourceTree = "<group>";
+		};
+		AE081FCB1E47AB15000A4F9B /* RequestorAcceptedDonations */ = {
+			isa = PBXGroup;
+			children = (
+				AE081FCD1E47AB6F000A4F9B /* RequestorAcceptedDonationViewController.swift */,
+				AE081FCF1E47AE20000A4F9B /* RequestorAcceptedDonationsTableViewCell.swift */,
+				AEC8BC251E5587E300ADC130 /* RequestorAvailableDonationsViewController.swift */,
+			);
+			name = RequestorAcceptedDonations;
+			sourceTree = "<group>";
+		};
+		AE081FD11E47EE86000A4F9B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AE081FD21E47EFFF000A4F9B /* Utility.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		AE081FD41E47F5C6000A4F9B /* viewDonationDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AE081FD51E47F5ED000A4F9B /* ViewDonationDetailsViewController.swift */,
+			);
+			name = viewDonationDetails;
+			sourceTree = "<group>";
+		};
+		AE081FD91E494F31000A4F9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE081FD71E47FC5B000A4F9B /* DonationDetails.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE1BE2FE1E3AF67100F08C31 = {
+			isa = PBXGroup;
+			children = (
+				AE1BE3091E3AF67100F08C31 /* DonateNow */,
+				AE1BE3081E3AF67100F08C31 /* Products */,
+				A7DF5AEB7A7E830EB0585116 /* Frameworks */,
+				9830CF284C4C3B4D55AE683A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1BE3081E3AF67100F08C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BE3071E3AF67100F08C31 /* DonateNow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1BE3091E3AF67100F08C31 /* DonateNow */ = {
+			isa = PBXGroup;
+			children = (
+				5D092A6D1E5D22FC00203541 /* Reviews */,
+				AEC8BC221E52206B00ADC130 /* Webservices */,
+				5D227BEF1E499C2300E2F5A4 /* SignUp */,
+				AE081FD41E47F5C6000A4F9B /* viewDonationDetails */,
+				AE081FD11E47EE86000A4F9B /* Utility */,
+				AE081FCB1E47AB15000A4F9B /* RequestorAcceptedDonations */,
+				AE081FC81E47A90A000A4F9B /* RequestorViewController */,
+				AE081FC71E47A6A4000A4F9B /* plist */,
+				AE081FC61E47A68B000A4F9B /* Storyboard */,
+				AE081FC51E47A680000A4F9B /* AppDelegate */,
+				AE081FC41E47A66D000A4F9B /* DonorViewController */,
+				AE081FC31E47A659000A4F9B /* DonorNewDonation */,
+				AE081FC21E47A63A000A4F9B /* DonorViewDonations */,
+				AE081FC11E47A62D000A4F9B /* Login */,
+				AE799C0C1E46AFAB00F67432 /* Images */,
+				AE55DFB01E3AFFBF00231A04 /* DonateNow.entitlements */,
+				AE1BE3111E3AF67100F08C31 /* Assets.xcassets */,
+			);
+			path = DonateNow;
+			sourceTree = "<group>";
+		};
+		AE799C0C1E46AFAB00F67432 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE799C0F1E46B01D00F67432 /* logo.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AEC8BC221E52206B00ADC130 /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				AEC8BC231E52226400ADC130 /* Webservices.swift */,
+			);
+			name = Webservices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1BE3061E3AF67100F08C31 /* DonateNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1BE3191E3AF67100F08C31 /* Build configuration list for PBXNativeTarget "DonateNow" */;
+			buildPhases = (
+				540A6230BE24696261BE9838 /* [CP] Check Pods Manifest.lock */,
+				AE1BE3031E3AF67100F08C31 /* Sources */,
+				AE1BE3041E3AF67100F08C31 /* Frameworks */,
+				AE1BE3051E3AF67100F08C31 /* Resources */,
+				02BED278AE3226B3010BFBA3 /* [CP] Embed Pods Frameworks */,
+				1E0159CDB73B96486AED8640 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonateNow;
+			productName = DonateNow;
+			productReference = AE1BE3071E3AF67100F08C31 /* DonateNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1BE2FF1E3AF67100F08C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Saranya Krishnan";
+				TargetAttributes = {
+					AE1BE3061E3AF67100F08C31 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5942K438H4;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AE1BE3021E3AF67100F08C31 /* Build configuration list for PBXProject "DonateNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1BE2FE1E3AF67100F08C31;
+			productRefGroup = AE1BE3081E3AF67100F08C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1BE3061E3AF67100F08C31 /* DonateNow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1BE3051E3AF67100F08C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1BE3151E3AF67100F08C31 /* LaunchScreen.storyboard in Resources */,
+				AE799C101E46B01D00F67432 /* logo.jpg in Resources */,
+				AE5DB73C1E403A5200B62A35 /* GoogleService-Info.plist in Resources */,
+				AE1BE3121E3AF67100F08C31 /* Assets.xcassets in Resources */,
+				AE1BE3101E3AF67100F08C31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02BED278AE3226B3010BFBA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonateNow/Pods-DonateNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E0159CDB73B96486AED8640 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonateNow/Pods-DonateNow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		540A6230BE24696261BE9838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1BE3031E3AF67100F08C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE081FD31E47EFFF000A4F9B /* Utility.swift in Sources */,
+				AEC39C771E6BB13700FB0FEA /* ReviewsTableViewCell.swift in Sources */,
+				AEC8BC261E5587E300ADC130 /* RequestorAvailableDonationsViewController.swift in Sources */,
+				AE081FD01E47AE20000A4F9B /* RequestorAcceptedDonationsTableViewCell.swift in Sources */,
+				AE1BE30D1E3AF67100F08C31 /* ViewController.swift in Sources */,
+				5D227BF31E499C5900E2F5A4 /* SignupRequestorViewController.swift in Sources */,
+				5D092A731E5D25DE00203541 /* DonorViewReviewsController.swift in Sources */,
+				AECD22A01E46D2E4002FB1E0 /* NewDonationViewController.swift in Sources */,
+				AECD22981E46BC0D002FB1E0 /* MyDonationTableViewCell.swift in Sources */,
+				5D092A6F1E5D249400203541 /* RequestorViewReviewsController.swift in Sources */,
+				AE1BE30B1E3AF67100F08C31 /* AppDelegate.swift in Sources */,
+				AE081FD81E47FC5B000A4F9B /* DonationDetails.swift in Sources */,
+				AE081FD61E47F5ED000A4F9B /* ViewDonationDetailsViewController.swift in Sources */,
+				AE081FCA1E47A92C000A4F9B /* RequestorViewController.swift in Sources */,
+				AECD229E1E46CD7D002FB1E0 /* MyDonationsViewController.swift in Sources */,
+				5D227BF11E499C4200E2F5A4 /* SignupDonorViewController.swift in Sources */,
+				AE081FCE1E47AB6F000A4F9B /* RequestorAcceptedDonationViewController.swift in Sources */,
+				5D4FF9011E5E7F6900754418 /* ReviewDetails.swift in Sources */,
+				AEE399661E402899003B7B23 /* DonorViewController.swift in Sources */,
+				AED777E71E5CF484002D65B6 /* UserDetails.swift in Sources */,
+				5D092A711E5D24DA00203541 /* RequestorWriteReviewsController.swift in Sources */,
+				AEC8BC241E52226400ADC130 /* Webservices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE1BE30E1E3AF67100F08C31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1BE30F1E3AF67100F08C31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE1BE3131E3AF67100F08C31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1BE3141E3AF67100F08C31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1BE3171E3AF67100F08C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE1BE3181E3AF67100F08C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1BE31A1E3AF67100F08C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934A3AEAB6CBFB2EDC3BD2C2 /* Pods-DonateNow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DonateNow/DonateNow.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5942K438H4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/AdMob",
+					"$(PROJECT_DIR)/Firebase/Analytics",
+					"$(PROJECT_DIR)/Firebase/AppIndexing",
+					"$(PROJECT_DIR)/Firebase/Auth",
+					"$(PROJECT_DIR)/Firebase/Crash",
+					"$(PROJECT_DIR)/Firebase/Database",
+					"$(PROJECT_DIR)/Firebase/DynamicLinks",
+					"$(PROJECT_DIR)/Firebase/Invites",
+					"$(PROJECT_DIR)/Firebase/Messaging",
+					"$(PROJECT_DIR)/Firebase/RemoteConfig",
+					"$(PROJECT_DIR)/Firebase/Storage",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DonateNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donatenow.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE1BE31B1E3AF67100F08C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF3243E28DB5837788361C5 /* Pods-DonateNow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DonateNow/DonateNow.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5942K438H4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/AdMob",
+					"$(PROJECT_DIR)/Firebase/Analytics",
+					"$(PROJECT_DIR)/Firebase/AppIndexing",
+					"$(PROJECT_DIR)/Firebase/Auth",
+					"$(PROJECT_DIR)/Firebase/Crash",
+					"$(PROJECT_DIR)/Firebase/Database",
+					"$(PROJECT_DIR)/Firebase/DynamicLinks",
+					"$(PROJECT_DIR)/Firebase/Invites",
+					"$(PROJECT_DIR)/Firebase/Messaging",
+					"$(PROJECT_DIR)/Firebase/RemoteConfig",
+					"$(PROJECT_DIR)/Firebase/Storage",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DonateNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donatenow.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1BE3021E3AF67100F08C31 /* Build configuration list for PBXProject "DonateNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1BE3171E3AF67100F08C31 /* Debug */,
+				AE1BE3181E3AF67100F08C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1BE3191E3AF67100F08C31 /* Build configuration list for PBXNativeTarget "DonateNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1BE31A1E3AF67100F08C31 /* Debug */,
+				AE1BE31B1E3AF67100F08C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1BE2FF1E3AF67100F08C31 /* Project object */;
+}

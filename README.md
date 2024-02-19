@@ -6,7 +6,7 @@ RecoverEats, a new iOS app revolutionizing how we tackle food waste! This innova
 
 RecoverEats uses AI for demand predictions and optimization, RFID technology to scan receipts, and Augmented Reality for product scanning. It links with external apps like UberEats and Grocery Apps to provide recommendations and connects users with food donation organizations for easy excess food management. Say goodbye to waste with RecoverEats!
 
-This codebase provides integration plugins and framework tutorial for business wishing to integrate with RecoverEats.
+This codebase provides integration plugins and framework tutorials for businesses wishing to integrate with RecoverEats.
 
 ## Project Analysis
 ### Target Audience
@@ -16,9 +16,9 @@ We will be using the Firebase analytics model to generate time-to-time reports o
 ### Competitor Analysis
 #### Waste no food:
 https://itunes.apple.com/us/app/wastenofood/id866786935?mt=8
-This application mainly talks about California, could not find any details about people using it in Seattle.
+This application mainly talks about California restaurants, could not find any details about household users. Also, it lacks personalized recommendations.
 #### Ample harvest:
-This does not exactly deal with leftovers, It mainly focuses on creating free pantries where people go and take food whenever they are hungry.
+It mainly focuses on creating free pantries where people go and take food whenever they are hungry.
 https://itunes.apple.com/us/app/ampleharvest/id348829918?mt=8
 ### Monetization Model
 1. Funding/Donations- Millions of dollars are donated annually to support such non-profit causes & organizations. Feeding America Organization help in generating revenue for such activities across the state. Donors who provide food in good faith are protected by both State and Federal Good Samaritan laws designed to encourage donation of needed foods and protect donors. We plan to get some external funding for the project once we have a stable prototype version of the application ready.
